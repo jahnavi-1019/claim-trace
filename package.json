@@ -1,0 +1,26 @@
+{
+  "name": "@portfolio/claim-trace",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Source-grounded evidence verification system classifying claims as supported, contradicted, insufficiently supported, or unverified",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test dist/*.test.js",
+    "ui": "npx serve -l 3000 ."
+  },
+  "keywords": [
+    "fact-checking",
+    "evidence-grounding",
+    "nlp",
+    "hallucination-detection",
+    "nli"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
